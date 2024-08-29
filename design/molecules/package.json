@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
+  "dependencies": {
+    "@seeliang/mono-atoms": "0.0.0"
+  },
   "author": "",
   "license": "ISC"
 }

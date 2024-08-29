@@ -11,5 +11,8 @@
   "license": "ISC",
   "workspaces": [
     "design/*"
-  ]
+  ],
+  "devDependencies": {
+    "nx": "19.6.3"
+  }
 }
