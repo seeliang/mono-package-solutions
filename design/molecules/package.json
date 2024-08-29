@@ -7,8 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@seeliang/mono-atoms": "0.0.0"
+    "@seeliang/mono-atoms": "1.0.0"
   },
+  "workspaces": [
+    "design/*"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"
