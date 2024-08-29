@@ -1,13 +1,13 @@
 {
   "name": "@seeliang/mono-molecules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@seeliang/mono-atoms": "1.0.0"
+    "@seeliang/mono-atoms": "1.0.1"
   },
   "workspaces": [
     "design/*"
