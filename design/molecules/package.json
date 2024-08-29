@@ -13,9 +13,6 @@
     "design/*"
   ],
   "keywords": [],
-  "dependencies": {
-    "@seeliang/mono-atoms": "0.0.0"
-  },
   "author": "",
   "license": "ISC"
 }
