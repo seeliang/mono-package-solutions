@@ -19,7 +19,7 @@
         ],
         "generatePackageJson": true,
         "format": [
-          "cjs"
+          "esm"
         ]
       }
     }
