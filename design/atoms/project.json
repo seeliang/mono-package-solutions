@@ -1,0 +1,27 @@
+{
+  "name": "@seeliang/mono-atoms",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "design/atoms",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "./dist",
+        "main": "design/atoms/index.js",
+        "tsConfig": "design/atoms/tsconfig.lib.json",
+        "assets": [
+          "design/atoms/*.md"
+        ],
+        "generatePackageJson": true,
+        "format": [
+          "cjs"
+        ]
+      }
+    }
+  }
+}

@@ -2,7 +2,7 @@
   "name": "@seeliang/mono-atoms",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -21,7 +21,7 @@
         ],
         "defaultConfiguration": "production",
         "options": {
-          "outputPath": "dist/design/atoms",
+          "outputPath": "./dist/",
           "outputFileName": "main.js",
           "assets": [],
           "platform": "node"
