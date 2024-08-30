@@ -10,7 +10,10 @@
   },
   "release": {
     "version": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "projects": [
+        "design/**/*"
+      ]
     }
   },
   "defaultBase": "main"

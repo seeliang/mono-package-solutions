@@ -2,7 +2,6 @@
   "name": "mono-package-solutions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "nx run-many --target=test --all",
     "release": "nx release"
@@ -11,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "design/*"
+    "design/**/*"
   ],
   "devDependencies": {
     "@nx/js": "^19.6.3",
