@@ -11,7 +11,7 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "./dist",
+        "outputPath": "{projectRoot}/dist",
         "main": "design/atoms/index.js",
         "tsConfig": "design/atoms/tsconfig.lib.json",
         "assets": [
