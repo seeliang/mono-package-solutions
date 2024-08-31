@@ -11,6 +11,8 @@
     "@nx/esbuild:esbuild": {
       "cache": true,
       "dependsOn": [
+        "^test",
+        "test",
         "^build"
       ],
       "inputs": [
