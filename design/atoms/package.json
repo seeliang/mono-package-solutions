@@ -22,7 +22,7 @@
         "defaultConfiguration": "production",
         "options": {
           "outputPath": "{projectRoot}//dist",
-          "outputFileName": "main.js",
+          "outputFileName": "index.js",
           "assets": [],
           "platform": "node"
         },
