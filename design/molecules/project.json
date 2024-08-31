@@ -1,0 +1,26 @@
+{
+  "name": "@seeliang/mono-molecules",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "design/molecules",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "{projectRoot}/dist",
+        "main": "design/molecules/index.js",
+        "tsConfig": "design/molecules/tsconfig.lib.json",
+        "assets": [
+          "design/molecules/*.md"
+        ],
+        "format": [
+          "esm"
+        ]
+      }
+    }
+  }
+}
