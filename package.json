@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nx run-many --target=test --all",
+    "build": "nx run-many --target=build --all",
     "release": "nx release"
   },
   "keywords": [],

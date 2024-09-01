@@ -4,37 +4,13 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no atoms test specified\" && exit 0",
+    "build": "nx build"
   },
   "workspaces": [
     "design/*"
   ],
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "nx": {
-    "targets": {
-      "build": {
-        "executor": "@nx/esbuild:esbuild",
-        "outputs": [
-          "{options.outputPath}"
-        ],
-        "defaultConfiguration": "production",
-        "options": {
-          "outputPath": "{projectRoot}//dist",
-          "outputFileName": "index.js",
-          "assets": [],
-          "platform": "node"
-        },
-        "configurations": {
-          "development": {
-            "minify": false
-          },
-          "production": {
-            "minify": true
-          }
-        }
-      }
-    }
-  }
+  "license": "ISC"
 }

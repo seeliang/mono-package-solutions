@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no molecules specified test\" && exit 0"
+    "test": "echo \"Error: no molecules specified test\" && exit 0",
+    "build": "nx build"
   },
   "dependencies": {
     "@seeliang/mono-atoms": "1.0.1"
