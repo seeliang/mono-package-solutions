@@ -6,3 +6,5 @@
 .nx/cache
 .nx/workspace-data
 **/dist/*
+.prettierignore
+.prettierrc
