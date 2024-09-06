@@ -7,6 +7,7 @@
     "test": "nx run-many --target=test --all",
     "build": "nx run-many --target=build --all",
     "create-package": "bash create-nx-package.sh",
+    "create-react": "bash create-nx-react.sh",
     "release": "nx release"
   },
   "keywords": [],
