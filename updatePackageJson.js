@@ -1,6 +1,5 @@
 const args = process.argv.slice(2);
 
-const { get } = require('http');
 const updateJson = require('./updateJson');
 
 if (args.length < 1) {
@@ -33,10 +32,7 @@ const getUpdates = (updates) => updates.reduce((acc, update) => {
     if (value.includes(':')) {
         return {
             ...acc,
-            [key]: {
-                ...acc[key],
-                ...getUpdates([value])
-            }
+            [key]: getUpdates([value])
         }
     }
     return {
@@ -45,7 +41,6 @@ const getUpdates = (updates) => updates.reduce((acc, update) => {
     }
 }, {});
 const updateObject = getUpdates(updates);
-
 
 console.log('updates:', JSON.stringify(updateObject), 'path:', pathToJson);
 
