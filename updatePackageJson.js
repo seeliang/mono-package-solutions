@@ -26,13 +26,17 @@ if (!pathToJson) {
     return;
 }
 
+
 const getUpdates = (updates) => updates.reduce((acc, update) => {
     const [key] = update.split(':');
     const value = update.split(':').slice(1).join(':');
     if (value.includes(':')) {
         return {
             ...acc,
-            [key]: getUpdates([value])
+            [key]: {
+                ...acc[key],
+                ...getUpdates([value])
+            }
         }
     }
     return {
